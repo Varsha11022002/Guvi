@@ -10,6 +10,8 @@ for(let i=0;i<arr.length;i++)
 
 findOdd([1,2,3,4,5,6,7,8,9])
 ____________________________________________________________
+ANONYMOUS FUNCTION
+
 var findodd=(arr)=>{
        for(let i=0;i<arr.length;i++)
         {
@@ -34,3 +36,16 @@ IIFE
         }
     }
     )([0,1,2,3,4,5,6,7,8,9,10])
+_____________________________________________________________________
+ARROW FNCT
+var findodd=(arr)=>{
+       for(let i=0;i<arr.length;i++)
+        {
+            if(arr[i]%2!=0)
+            {
+                console.log(arr[i])
+            }
+        }
+    }
+    
+    findodd([0,1,2,3,4,5,6,7,8,9,10])
