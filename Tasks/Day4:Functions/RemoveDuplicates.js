@@ -7,6 +7,15 @@ function remove(arr)
  console.log(remove(["happy","good","morning","good","noon","happy","sun","happy","good"]))
 
 ______________________________________________________________________________
+( function (arr)
+ {
+   let a=[...new Set(arr)];
+  console.log(a)
+ })
+ 
+ (["happy","good","morning","good","noon","happy","sun","happy","good"])
+ 
+ _________________________________________________________________________________
 
  var remove=(arr)=>{
  var a=[];
