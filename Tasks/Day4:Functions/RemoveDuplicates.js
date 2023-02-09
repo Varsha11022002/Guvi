@@ -30,5 +30,21 @@ ______________________________________________________________________________
  
  
  remove(["happy","good","morning","good","noon","happy","sun","happy","good"])
+
+/* let unique=arr.filter((a,index)=>
+{
+  return(arr.indexOf(a)!==index)
+})
+ 
+ console.log(unique)
+  */
+/*  var a=[]
+ arr.forEach((ele)=>
+ {
+     if(!a.includes(ele))
+      a.push(ele)
+ })
+ 
+ console.log(a) */
  
  
